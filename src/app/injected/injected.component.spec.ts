@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgChildComponent } from './ng-child.component';
+import { InjectedComponent } from './injected.component';
 
-describe('NgChildComponent', () => {
-  let component: NgChildComponent;
-  let fixture: ComponentFixture<NgChildComponent>;
+describe('InjectedComponent', () => {
+  let component: InjectedComponent;
+  let fixture: ComponentFixture<InjectedComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NgChildComponent]
+      declarations: [InjectedComponent]
     });
-    fixture = TestBed.createComponent(NgChildComponent);
+    fixture = TestBed.createComponent(InjectedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

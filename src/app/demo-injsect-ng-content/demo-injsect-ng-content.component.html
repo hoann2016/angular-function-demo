@@ -1,0 +1,14 @@
+<div>
+  Hello, main app
+</div>
+<!-- Demo to pass somethinng inside the ng-content -->
+<app-ng-content>I want to pass some thing</app-ng-content>
+<!-- Demo put the element has attr questioin into the correct ng-content -->
+<app-ng-content>
+  <p question>
+    Is content projection cool?
+  </p>
+  <p>Let's learn about content projection!</p>
+</app-ng-content>
+<!-- Demo pass component inside the ng-content -->
+<app-ng-content><app-injected></app-injected></app-ng-content>
